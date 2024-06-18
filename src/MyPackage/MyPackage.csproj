@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    
+    <PropertyGroup Condition="$(Version) == '1.1.0'">
+        <DefineConstants>$(DefineConstants);VER_1_1</DefineConstants>
+    </PropertyGroup>
+
+</Project>
